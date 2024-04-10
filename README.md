@@ -1,2 +1,6 @@
-# dragcentral
-Source code for the old drag racing game DragCentral. The last version findable is 0.83. Here I have both the source code for the server and the source code for building it.
+![Game Logo](https://raw.githubusercontent.com/ciullaanthonyj/dragcentral/main/images/dclogo.png)
+
+## DragCentral
+
+Welcome to the DragCentral game repository. I figured it was time to try and find all the server files and client files I could and make them publicly accessible incase anyone decided they wanted to tinker with the game!
+
