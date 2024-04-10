@@ -1,0 +1,12 @@
+<?php
+
+$link = mysql_connect('localhost', 'dcgamer', '813813')  or die('Could not connect: ' . mysql_error());
+mysql_select_db('dcgamer_drag') or print('Could not select database');
+
+function query($query) {
+  $result = mysql_query($query) or print('Query failed: ' . mysql_error());
+  return $result;
+}
+
+
+?>

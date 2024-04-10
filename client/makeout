@@ -1,0 +1,251 @@
+MAKE Version 5.2  Copyright (c) 1987, 2000 Borland
+	c:\BCCOMM~1\bin\..\BIN\bcc32 -Od -H=c:\BCCOMM~1\bin\..\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c   -tW -tWM -w-par -Ic:\BCCOMM~1\bin\..\Imports;C:\;C:\dc;c:\BCCOMM~1\bin\..\include;c:\BCCOMM~1\bin\..\include\vcl -D_DEBUG;NO_STRICT -n.\ .\dc_offline_form.cpp .\race_flash.cpp .\myflash.cpp .\cprofiler.cpp .\race_gameandflash.cpp .\race_game.cpp .\myvcl.cpp .\caudio.cpp .\challenge.cpp .\cmp3stream.cpp 
+Borland C++ 5.5.1 for Win32 Copyright (c) 1993, 2000 Borland
+.\dc_offline_form.cpp:
+Error E2209 .\dc_offline_form.cpp 3: Unable to open include file 'vcl.h'
+Error E2209 .\dc_offline_form.h 6: Unable to open include file 'Classes.hpp'
+Error E2209 .\dc_offline_form.h 7: Unable to open include file 'Controls.hpp'
+Error E2209 .\dc_offline_form.h 8: Unable to open include file 'StdCtrls.hpp'
+Error E2209 .\dc_offline_form.h 9: Unable to open include file 'Forms.hpp'
+Error E2209 .\cgrbutton.h 6: Unable to open include file 'SysUtils.hpp'
+Error E2209 .\cgrbutton.h 7: Unable to open include file 'Classes.hpp'
+Error E2209 .\cgrbutton.h 8: Unable to open include file 'Controls.hpp'
+Error E2209 .\cgrbutton.h 9: Unable to open include file 'ExtCtrls.hpp'
+Error E2303 .\cgrbutton.h 13: Type name expected
+Error E2303 .\cgrbutton.h 14: Type name expected
+Error E2139 .\cgrbutton.h 14: Declaration missing ;
+Error E2303 .\cgrbutton.h 24: Type name expected
+Error E2139 .\cgrbutton.h 24: Declaration missing ;
+Error E2303 .\cgrbutton.h 26: Type name expected
+Error E2139 .\cgrbutton.h 26: Declaration missing ;
+Error E2147 .\cgrbutton.h 32: 'TComponent' cannot start a parameter declaration
+Error E2316 .\cgrbutton.h 33: '_fastcall TMySensor::TMySensor(int *)' is not a member of 'TMySensor'
+Error E2450 .\cgrbutton.h 35: Undefined structure 'PACKAGE'
+Error E2449 .\cgrbutton.h 35: Size of 'TGrButton' is unknown or zero
+Error E2141 .\cgrbutton.h 35: Declaration syntax error
+Error E2209 .\ShockwaveFlashObjects_OCX.h 29: Unable to open include file 'olectrls.hpp'
+Error E2209 .\ShockwaveFlashObjects_OCX.h 30: Unable to open include file 'utilcls.h'
+Fatal F1003 .\ShockwaveFlashObjects_OCX.h 39: Error directive: "This file requires a newer version of the header UTILCLS.H"        "You need to apply an update/patch to your copy of C++Builder"
+*** 24 errors in Compile ***
+.\race_flash.cpp:
+Error E2209 C:\dc\pch.h 4: Unable to open include file 'vcl.h'
+Error E2209 C:\dc\pch.h 9: Unable to open include file 'inifiles.hpp'
+Error E2209 C:\dc\pch.h 12: Unable to open include file 'AppEvnts.hpp'
+Error E2209 C:\dc\pch.h 13: Unable to open include file 'Graphics.hpp'
+Error E2209 C:\dc\pch.h 14: Unable to open include file 'Grids.hpp'
+Error E2209 C:\dc\pch.h 15: Unable to open include file 'jpeg.hpp'
+Error E2209 C:\dc\pch.h 16: Unable to open include file 'Menus.hpp'
+Error E2209 C:\dc\pch.h 17: Unable to open include file 'OleCtrls.hpp'
+Error E2209 C:\dc\pch.h 18: Unable to open include file 'StdCtrls.hpp'
+Error E2209 C:\dc\pch.h 19: Unable to open include file 'ComCtrls.hpp'
+Error E2209 C:\dc\pch.h 20: Unable to open include file 'Controls.hpp'
+Error E2209 C:\dc\pch.h 21: Unable to open include file 'ExtCtrls.hpp'
+Error E2209 C:\dc\pch.h 22: Unable to open include file 'inifiles.hpp'
+Error E2209 .\ShockwaveFlashObjects_OCX.h 29: Unable to open include file 'olectrls.hpp'
+Error E2209 .\ShockwaveFlashObjects_OCX.h 30: Unable to open include file 'utilcls.h'
+Fatal F1003 .\ShockwaveFlashObjects_OCX.h 39: Error directive: "This file requires a newer version of the header UTILCLS.H"        "You need to apply an update/patch to your copy of C++Builder"
+*** 16 errors in Compile ***
+.\myflash.cpp:
+Error E2209 C:\dc\pch.h 4: Unable to open include file 'vcl.h'
+Error E2209 C:\dc\pch.h 9: Unable to open include file 'inifiles.hpp'
+Error E2209 C:\dc\pch.h 12: Unable to open include file 'AppEvnts.hpp'
+Error E2209 C:\dc\pch.h 13: Unable to open include file 'Graphics.hpp'
+Error E2209 C:\dc\pch.h 14: Unable to open include file 'Grids.hpp'
+Error E2209 C:\dc\pch.h 15: Unable to open include file 'jpeg.hpp'
+Error E2209 C:\dc\pch.h 16: Unable to open include file 'Menus.hpp'
+Error E2209 C:\dc\pch.h 17: Unable to open include file 'OleCtrls.hpp'
+Error E2209 C:\dc\pch.h 18: Unable to open include file 'StdCtrls.hpp'
+Error E2209 C:\dc\pch.h 19: Unable to open include file 'ComCtrls.hpp'
+Error E2209 C:\dc\pch.h 20: Unable to open include file 'Controls.hpp'
+Error E2209 C:\dc\pch.h 21: Unable to open include file 'ExtCtrls.hpp'
+Error E2209 C:\dc\pch.h 22: Unable to open include file 'inifiles.hpp'
+Error E2209 .\ShockwaveFlashObjects_OCX.h 29: Unable to open include file 'olectrls.hpp'
+Error E2209 .\ShockwaveFlashObjects_OCX.h 30: Unable to open include file 'utilcls.h'
+Fatal F1003 .\ShockwaveFlashObjects_OCX.h 39: Error directive: "This file requires a newer version of the header UTILCLS.H"        "You need to apply an update/patch to your copy of C++Builder"
+*** 16 errors in Compile ***
+.\cprofiler.cpp:
+Error E2209 C:\dc\pch.h 4: Unable to open include file 'vcl.h'
+Error E2209 C:\dc\pch.h 9: Unable to open include file 'inifiles.hpp'
+Error E2209 C:\dc\pch.h 12: Unable to open include file 'AppEvnts.hpp'
+Error E2209 C:\dc\pch.h 13: Unable to open include file 'Graphics.hpp'
+Error E2209 C:\dc\pch.h 14: Unable to open include file 'Grids.hpp'
+Error E2209 C:\dc\pch.h 15: Unable to open include file 'jpeg.hpp'
+Error E2209 C:\dc\pch.h 16: Unable to open include file 'Menus.hpp'
+Error E2209 C:\dc\pch.h 17: Unable to open include file 'OleCtrls.hpp'
+Error E2209 C:\dc\pch.h 18: Unable to open include file 'StdCtrls.hpp'
+Error E2209 C:\dc\pch.h 19: Unable to open include file 'ComCtrls.hpp'
+Error E2209 C:\dc\pch.h 20: Unable to open include file 'Controls.hpp'
+Error E2209 C:\dc\pch.h 21: Unable to open include file 'ExtCtrls.hpp'
+Error E2209 C:\dc\pch.h 22: Unable to open include file 'inifiles.hpp'
+Error E2209 .\cprofiler.h 6: Unable to open include file 'inifiles.hpp'
+Warning W8002 .\cprofiler.h 30: Restarting compile using assembly in function rdtsc()
+Error E2209 C:\dc\pch.h 4: Unable to open include file 'vcl.h'
+Error E2209 C:\dc\pch.h 9: Unable to open include file 'inifiles.hpp'
+Error E2209 C:\dc\pch.h 12: Unable to open include file 'AppEvnts.hpp'
+Error E2209 C:\dc\pch.h 13: Unable to open include file 'Graphics.hpp'
+Error E2209 C:\dc\pch.h 14: Unable to open include file 'Grids.hpp'
+Error E2209 C:\dc\pch.h 15: Unable to open include file 'jpeg.hpp'
+Error E2209 C:\dc\pch.h 16: Unable to open include file 'Menus.hpp'
+Error E2209 C:\dc\pch.h 17: Unable to open include file 'OleCtrls.hpp'
+Error E2209 C:\dc\pch.h 18: Unable to open include file 'StdCtrls.hpp'
+Error E2209 C:\dc\pch.h 19: Unable to open include file 'ComCtrls.hpp'
+Error E2209 C:\dc\pch.h 20: Unable to open include file 'Controls.hpp'
+Error E2209 C:\dc\pch.h 21: Unable to open include file 'ExtCtrls.hpp'
+Error E2209 C:\dc\pch.h 22: Unable to open include file 'inifiles.hpp'
+Error E2209 .\cprofiler.h 6: Unable to open include file 'inifiles.hpp'
+Error E2303 .\cprofiler.h 42: Type name expected
+Error E2139 .\cprofiler.h 42: Declaration missing ;
+Error E2303 .\cprofiler.h 49: Type name expected
+Error E2139 .\cprofiler.h 49: Declaration missing ;
+Error E2293 .\cprofiler.h 62: ) expected
+Error E2451 .\cprofiler.h 54: Undefined symbol 'sections' in function cProfiler::cProfiler()
+Error E2303 .\cprofiler.h 54: Type name expected in function cProfiler::cProfiler()
+Error E2379 .\cprofiler.h 54: Statement missing ; in function cProfiler::cProfiler()
+Error E2451 .\cprofiler.h 58: Undefined symbol 'sections' in function cProfiler::~cProfiler()
+Error E2451 .\cprofiler.h 60: Undefined symbol 'sections' in function cProfiler::~cProfiler()
+*** 24 errors in Compile ***
+.\race_gameandflash.cpp:
+Error E2209 C:\dc\pch.h 4: Unable to open include file 'vcl.h'
+Error E2209 C:\dc\pch.h 9: Unable to open include file 'inifiles.hpp'
+Error E2209 C:\dc\pch.h 12: Unable to open include file 'AppEvnts.hpp'
+Error E2209 C:\dc\pch.h 13: Unable to open include file 'Graphics.hpp'
+Error E2209 C:\dc\pch.h 14: Unable to open include file 'Grids.hpp'
+Error E2209 C:\dc\pch.h 15: Unable to open include file 'jpeg.hpp'
+Error E2209 C:\dc\pch.h 16: Unable to open include file 'Menus.hpp'
+Error E2209 C:\dc\pch.h 17: Unable to open include file 'OleCtrls.hpp'
+Error E2209 C:\dc\pch.h 18: Unable to open include file 'StdCtrls.hpp'
+Error E2209 C:\dc\pch.h 19: Unable to open include file 'ComCtrls.hpp'
+Error E2209 C:\dc\pch.h 20: Unable to open include file 'Controls.hpp'
+Error E2209 C:\dc\pch.h 21: Unable to open include file 'ExtCtrls.hpp'
+Error E2209 C:\dc\pch.h 22: Unable to open include file 'inifiles.hpp'
+Error E2209 .\race_game.h 6: Unable to open include file 'math.hpp'
+Error E2268 .\race_game.h 121: Call to undefined function 'RoundTo' in function sCarLogic::DoRace(double,float,float,float)
+Error E2268 .\race_game.h 131: Call to undefined function 'RoundTo' in function sCarLogic::DoRace(double,float,float,float)
+Error E2268 .\race_game.h 132: Call to undefined function 'RoundTo' in function sCarLogic::DoRace(double,float,float,float)
+Error E2209 .\ShockwaveFlashObjects_OCX.h 29: Unable to open include file 'olectrls.hpp'
+Error E2209 .\ShockwaveFlashObjects_OCX.h 30: Unable to open include file 'utilcls.h'
+Fatal F1003 .\ShockwaveFlashObjects_OCX.h 39: Error directive: "This file requires a newer version of the header UTILCLS.H"        "You need to apply an update/patch to your copy of C++Builder"
+*** 20 errors in Compile ***
+.\race_game.cpp:
+Error E2209 C:\dc\pch.h 4: Unable to open include file 'vcl.h'
+Error E2209 C:\dc\pch.h 9: Unable to open include file 'inifiles.hpp'
+Error E2209 C:\dc\pch.h 12: Unable to open include file 'AppEvnts.hpp'
+Error E2209 C:\dc\pch.h 13: Unable to open include file 'Graphics.hpp'
+Error E2209 C:\dc\pch.h 14: Unable to open include file 'Grids.hpp'
+Error E2209 C:\dc\pch.h 15: Unable to open include file 'jpeg.hpp'
+Error E2209 C:\dc\pch.h 16: Unable to open include file 'Menus.hpp'
+Error E2209 C:\dc\pch.h 17: Unable to open include file 'OleCtrls.hpp'
+Error E2209 C:\dc\pch.h 18: Unable to open include file 'StdCtrls.hpp'
+Error E2209 C:\dc\pch.h 19: Unable to open include file 'ComCtrls.hpp'
+Error E2209 C:\dc\pch.h 20: Unable to open include file 'Controls.hpp'
+Error E2209 C:\dc\pch.h 21: Unable to open include file 'ExtCtrls.hpp'
+Error E2209 C:\dc\pch.h 22: Unable to open include file 'inifiles.hpp'
+Error E2209 .\race_game.cpp 6: Unable to open include file 'math.hpp'
+Error E2209 .\race_game.h 6: Unable to open include file 'math.hpp'
+Error E2268 .\race_game.h 121: Call to undefined function 'RoundTo' in function sCarLogic::DoRace(double,float,float,float)
+Error E2268 .\race_game.h 131: Call to undefined function 'RoundTo' in function sCarLogic::DoRace(double,float,float,float)
+Error E2268 .\race_game.h 132: Call to undefined function 'RoundTo' in function sCarLogic::DoRace(double,float,float,float)
+*** 18 errors in Compile ***
+.\myvcl.cpp:
+Error E2209 C:\dc\pch.h 4: Unable to open include file 'vcl.h'
+Error E2209 C:\dc\pch.h 9: Unable to open include file 'inifiles.hpp'
+Error E2209 C:\dc\pch.h 12: Unable to open include file 'AppEvnts.hpp'
+Error E2209 C:\dc\pch.h 13: Unable to open include file 'Graphics.hpp'
+Error E2209 C:\dc\pch.h 14: Unable to open include file 'Grids.hpp'
+Error E2209 C:\dc\pch.h 15: Unable to open include file 'jpeg.hpp'
+Error E2209 C:\dc\pch.h 16: Unable to open include file 'Menus.hpp'
+Error E2209 C:\dc\pch.h 17: Unable to open include file 'OleCtrls.hpp'
+Error E2209 C:\dc\pch.h 18: Unable to open include file 'StdCtrls.hpp'
+Error E2209 C:\dc\pch.h 19: Unable to open include file 'ComCtrls.hpp'
+Error E2209 C:\dc\pch.h 20: Unable to open include file 'Controls.hpp'
+Error E2209 C:\dc\pch.h 21: Unable to open include file 'ExtCtrls.hpp'
+Error E2209 C:\dc\pch.h 22: Unable to open include file 'inifiles.hpp'
+Error E2141 .\myvcl.h 7: Declaration syntax error
+Error E2141 .\myvcl.h 9: Declaration syntax error
+Error E2238 .\myvcl.h 10: Multiple declaration for 'AnsiString'
+Error E2344 .\myvcl.h 9: Earlier declaration of 'AnsiString'
+Error E2141 .\myvcl.h 10: Declaration syntax error
+Error E2147 .\myvcl.h 11: 'TComponent' cannot start a parameter declaration
+Error E2147 .\myvcl.h 12: 'TComponent' cannot start a parameter declaration
+Error E2451 .\myvcl.h 14: Undefined symbol 'TStringGrid'
+Error E2451 .\myvcl.h 14: Undefined symbol 'sg'
+Error E2293 .\myvcl.h 14: ) expected
+Error E2451 .\myvcl.h 15: Undefined symbol 'TStringGrid'
+Error E2451 .\myvcl.h 16: Undefined symbol 'TStringGrid'
+Error E2228 .\myvcl.h 16: Too many error or warning messages
+*** 26 errors in Compile ***
+.\caudio.cpp:
+Error E2209 C:\dc\pch.h 4: Unable to open include file 'vcl.h'
+Error E2209 C:\dc\pch.h 9: Unable to open include file 'inifiles.hpp'
+Error E2209 C:\dc\pch.h 12: Unable to open include file 'AppEvnts.hpp'
+Error E2209 C:\dc\pch.h 13: Unable to open include file 'Graphics.hpp'
+Error E2209 C:\dc\pch.h 14: Unable to open include file 'Grids.hpp'
+Error E2209 C:\dc\pch.h 15: Unable to open include file 'jpeg.hpp'
+Error E2209 C:\dc\pch.h 16: Unable to open include file 'Menus.hpp'
+Error E2209 C:\dc\pch.h 17: Unable to open include file 'OleCtrls.hpp'
+Error E2209 C:\dc\pch.h 18: Unable to open include file 'StdCtrls.hpp'
+Error E2209 C:\dc\pch.h 19: Unable to open include file 'ComCtrls.hpp'
+Error E2209 C:\dc\pch.h 20: Unable to open include file 'Controls.hpp'
+Error E2209 C:\dc\pch.h 21: Unable to open include file 'ExtCtrls.hpp'
+Error E2209 C:\dc\pch.h 22: Unable to open include file 'inifiles.hpp'
+Error E2293 .\caudio.h 16: ) expected
+Error E2293 .\caudio.h 17: ) expected
+Error E2293 .\caudio.h 18: ) expected
+Error E2293 .\caudio.h 19: ) expected
+Error E2293 .\caudio.h 20: ) expected
+Error E2293 .\caudio.h 22: ) expected
+Error E2293 .\caudio.h 23: ) expected
+Error E2293 .\caudio.h 24: ) expected
+Error E2293 .\caudio.h 25: ) expected
+Error E2303 .\caudio.h 31: Type name expected
+Error E2139 .\caudio.h 31: Declaration missing ;
+Warning W8012 .\caudio.cpp 98: Comparing signed and unsigned values in function cRawData::readFile(void *,int)
+Warning W8012 .\caudio.cpp 101: Comparing signed and unsigned values in function cRawData::readFile(void *,int)
+Error E2268 .\caudio.cpp 201: Call to undefined function 'Move' in function cRawData::getBytes(long,char *,long)
+Error E2228 .\caudio.cpp 201: Too many error or warning messages in function cRawData::getBytes(long,char *,long)
+*** 26 errors in Compile ***
+.\challenge.cpp:
+Error E2209 C:\dc\pch.h 4: Unable to open include file 'vcl.h'
+Error E2209 C:\dc\pch.h 9: Unable to open include file 'inifiles.hpp'
+Error E2209 C:\dc\pch.h 12: Unable to open include file 'AppEvnts.hpp'
+Error E2209 C:\dc\pch.h 13: Unable to open include file 'Graphics.hpp'
+Error E2209 C:\dc\pch.h 14: Unable to open include file 'Grids.hpp'
+Error E2209 C:\dc\pch.h 15: Unable to open include file 'jpeg.hpp'
+Error E2209 C:\dc\pch.h 16: Unable to open include file 'Menus.hpp'
+Error E2209 C:\dc\pch.h 17: Unable to open include file 'OleCtrls.hpp'
+Error E2209 C:\dc\pch.h 18: Unable to open include file 'StdCtrls.hpp'
+Error E2209 C:\dc\pch.h 19: Unable to open include file 'ComCtrls.hpp'
+Error E2209 C:\dc\pch.h 20: Unable to open include file 'Controls.hpp'
+Error E2209 C:\dc\pch.h 21: Unable to open include file 'ExtCtrls.hpp'
+Error E2209 C:\dc\pch.h 22: Unable to open include file 'inifiles.hpp'
+Error E2206 .\myinternet.h 1: Illegal character 'ï' (0xef)
+Error E2206 .\myinternet.h 1: Illegal character '»' (0xbb)
+Error E2206 .\myinternet.h 1: Illegal character '¿' (0xbf)
+Error E2209 .\myinternet.h 6: Unable to open include file 'sockets.hpp'
+Error E2141 .\myinternet.h 9: Declaration syntax error
+Error E2238 .\myinternet.h 14: Multiple declaration for 'AnsiString'
+Error E2344 .\myinternet.h 9: Earlier declaration of 'AnsiString'
+Error E2141 .\myinternet.h 14: Declaration syntax error
+Error E2303 .\myinternet.h 23: Type name expected
+Error E2139 .\myinternet.h 23: Declaration missing ;
+Error E2303 .\myinternet.h 24: Type name expected
+Error E2238 .\myinternet.h 24: Multiple declaration for 'cServer::TTcpClient'
+Error E2228 .\myinternet.h 24: Too many error or warning messages
+*** 26 errors in Compile ***
+.\cmp3stream.cpp:
+Error E2209 C:\dc\pch.h 4: Unable to open include file 'vcl.h'
+Error E2209 C:\dc\pch.h 9: Unable to open include file 'inifiles.hpp'
+Error E2209 C:\dc\pch.h 12: Unable to open include file 'AppEvnts.hpp'
+Error E2209 C:\dc\pch.h 13: Unable to open include file 'Graphics.hpp'
+Error E2209 C:\dc\pch.h 14: Unable to open include file 'Grids.hpp'
+Error E2209 C:\dc\pch.h 15: Unable to open include file 'jpeg.hpp'
+Error E2209 C:\dc\pch.h 16: Unable to open include file 'Menus.hpp'
+Error E2209 C:\dc\pch.h 17: Unable to open include file 'OleCtrls.hpp'
+Error E2209 C:\dc\pch.h 18: Unable to open include file 'StdCtrls.hpp'
+Error E2209 C:\dc\pch.h 19: Unable to open include file 'ComCtrls.hpp'
+Error E2209 C:\dc\pch.h 20: Unable to open include file 'Controls.hpp'
+Error E2209 C:\dc\pch.h 21: Unable to open include file 'ExtCtrls.hpp'
+Error E2209 C:\dc\pch.h 22: Unable to open include file 'inifiles.hpp'
+Warning W8066 .\cmp3stream.cpp 686: Unreachable code in function decodeFrameHeader(char *,FRAMEHEADER *)
+Warning W8012 .\cmp3stream.cpp 775: Comparing signed and unsigned values in function getnFrame(MP3STREAM *,FRAMEHEADER *,int)
+*** 13 errors in Compile ***

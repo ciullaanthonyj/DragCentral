@@ -1,0 +1,54 @@
+# Project Options
+BBProjectVersion=1
+IDEVersion=10
+AutoIncBuildNumber=0
+# Project Filename
+C:\dc\dragcentral.exe
+# Modules
+2|C:\dc\dragcentral.cpp|C:\bcbtemp\dragcentral.obj|0
+2|C:\dc\myinternet.cpp|C:\bcbtemp\myinternet.obj|0
+2|C:\dc\frmMain.cpp|C:\bcbtemp\frmMain.obj|0
+2|C:\dc\roomlistForm.cpp|C:\bcbtemp\roomlistForm.obj|0
+2|C:\dc\chatserver.cpp|C:\bcbtemp\chatserver.obj|0
+2|C:\dc\createroomForm.cpp|C:\bcbtemp\createroomForm.obj|0
+2|C:\dc\pmsForm.cpp|C:\bcbtemp\pmsForm.obj|0
+2|C:\dc\exceptForm.cpp|C:\bcbtemp\exceptForm.obj|0
+2|C:\dc\race_gameandflash.cpp|C:\bcbtemp\race_gameandflash.obj|0
+2|C:\dc\race_flash.cpp|C:\bcbtemp\race_flash.obj|0
+2|C:\dc\race_game.cpp|C:\bcbtemp\race_game.obj|0
+2|C:\dc\myflash.cpp|C:\bcbtemp\myflash.obj|0
+2|C:\dc\mymath.cpp|C:\bcbtemp\mymath.obj|0
+2|C:\dc\account.cpp|C:\bcbtemp\account.obj|0
+2|C:\dc\challenge.cpp|C:\bcbtemp\challenge.obj|0
+2|C:\dc\myvcl.cpp|C:\bcbtemp\myvcl.obj|0
+2|C:\dc\race_car_engine.cpp|C:\bcbtemp\race_car_engine.obj|0
+2|C:\dc\sensor.cpp|C:\bcbtemp\sensor.obj|0
+2|C:\dc\sensortab.cpp|C:\bcbtemp\sensortab.obj|0
+2|C:\dc\form_modtools.cpp|C:\bcbtemp\form_modtools.obj|0
+2|C:\dc\caudio.cpp|C:\bcbtemp\caudio.obj|0
+2|C:\dc\cmp3stream.cpp|C:\bcbtemp\cmp3stream.obj|0
+2|C:\dc\team.cpp|C:\bcbtemp\team.obj|0
+2|C:\dc\form_distributefunds.cpp|C:\bcbtemp\form_distributefunds.obj|0
+2|C:\dc\form_teamchallenge.cpp|C:\bcbtemp\form_teamchallenge.obj|0
+2|C:\dc\form_challengeinfo.cpp|C:\bcbtemp\form_challengeinfo.obj|0
+2|C:\dc\form_challengeinfo_completed.cpp|C:\bcbtemp\form_challengeinfo_completed.obj|0
+2|C:\dc\cars.cpp|C:\bcbtemp\cars.obj|0
+2|C:\dc\confirmForm.cpp|C:\bcbtemp\confirmForm.obj|0
+2|C:\dc\parts.cpp|C:\bcbtemp\parts.obj|0
+2|C:\dc\form_getpass.cpp|C:\bcbtemp\form_getpass.obj|0
+2|C:\dc\form_banned.cpp|C:\bcbtemp\form_banned.obj|0
+2|C:\dc\form_gearratios.cpp|C:\bcbtemp\form_gearratios.obj|0
+2|C:\dc\cchecker.cpp|C:\bcbtemp\cchecker.obj|0
+2|C:\dc\cprofiler.cpp|C:\bcbtemp\cprofiler.obj|0
+2|C:\dc\common_stuff.cpp|C:\bcbtemp\common_stuff.obj|0
+2|C:\dc\messageform.cpp|C:\bcbtemp\messageform.obj|0
+2|C:\dc\inputForm.cpp|C:\bcbtemp\inputForm.obj|0
+2|C:\dc\teammessage_post.cpp|C:\bcbtemp\teammessage_post.obj|0
+2|C:\dc\cgrbutton.cpp|C:\bcbtemp\cgrbutton.obj|0
+2|C:\dc\csecstrings.cpp|C:\bcbtemp\csecstrings.obj|0
+2|C:\dc\cfindwindow.cpp|C:\bcbtemp\cfindwindow.obj|0
+2|C:\dc\cencoder.cpp|C:\bcbtemp\cencoder.obj|0
+2|C:\dc\myprofiler.cpp|C:\bcbtemp\myprofiler.obj|0
+2|C:\dc\formHelp.cpp|C:\bcbtemp\formHelp.obj|0
+# Compiler Options
+-DNDEBUG -H -k- -r -vi -6 -H="C:\Program Files\Borland\BDS\4.0\lib\vcl100.csm"  -IC:\;"C:\Program Files\Borland\BDS\4.0\include\vcl";"C:\Program Files\Borland\BDS\4.0\include\dinkumware";C:\gt;F:\;"C:\Program Files\Borland\BDS\4.0\Imports";c:\uho\australia-webmaster\originalsource\components;..\australia-webmaster\originalsource\components;"C:\Program Files\Borland\CBuilder6\Projects";C:\uho\cars;"C:\Program Files\Borland\BDS\4.0\include";"C:\Program Files\Borland\BDS\4.0\Include\Indy9";"C:\Program Files\Borland\BDS\4.0\Lib\Indy9" -O2 -Ve -Vx -b- -dc -nC:\bcbtemp\ -DNO_STRICT -tW -tWM  -w-par  -c

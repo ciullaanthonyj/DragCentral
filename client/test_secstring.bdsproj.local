@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2006.08.16 07:57:10.169.cpp,C:\Documents and Settings\Назар\Мои документы\Borland Studio Projects\Unit1.cpp=C:\dc\test_secstring_form.cpp</Transaction>
+    <Transaction>2006.08.16 07:57:10.169.h,C:\Documents and Settings\Назар\Мои документы\Borland Studio Projects\Unit1.h=C:\dc\test_secstring_form.h</Transaction>
+    <Transaction>2006.08.16 07:57:10.169.dfm,C:\Documents and Settings\Назар\Мои документы\Borland Studio Projects\Unit1.dfm=C:\dc\test_secstring_form.dfm</Transaction>
+    <Transaction>2006.08.16 07:57:15.544.bdsproj,C:\Documents and Settings\Назар\Мои документы\Borland Studio Projects\Project1.bdsproj=C:\dc\test_secstring.bdsproj</Transaction>
+  </Transactions>
+</BorlandProject>

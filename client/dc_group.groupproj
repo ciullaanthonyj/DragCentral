@@ -1,0 +1,44 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{d1ec4ac5-90e9-4113-b46c-9e809837a141}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Projects Include="code_string.cbproj" />
+    <Projects Include="dragcentral.cbproj" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+  <BorlandProject xmlns=""> <Default.Personality> </Default.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="dragcentral">
+    <MSBuild Projects="dragcentral.cbproj" Targets="" />
+  </Target>
+  <Target Name="dragcentral:Clean">
+    <MSBuild Projects="dragcentral.cbproj" Targets="Clean" />
+  </Target>
+  <Target Name="dragcentral:Make">
+    <MSBuild Projects="dragcentral.cbproj" Targets="Make" />
+  </Target>
+  <Target Name="code_string">
+    <MSBuild Projects="code_string.cbproj" Targets="" />
+  </Target>
+  <Target Name="code_string:Clean">
+    <MSBuild Projects="code_string.cbproj" Targets="Clean" />
+  </Target>
+  <Target Name="code_string:Make">
+    <MSBuild Projects="code_string.cbproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="dragcentral;code_string" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="dragcentral:Clean;code_string:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="dragcentral:Make;code_string:Make" />
+  </Target>
+  <Import Condition="Exists('$(MSBuildBinPath)\Borland.Group.Targets')" Project="$(MSBuildBinPath)\Borland.Group.Targets" />
+</Project>

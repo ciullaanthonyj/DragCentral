@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{b85fae2e-ccd5-428f-8a81-456711e03be6}</ProjectGuid>
+    <ProjectType>CppVCLApplication</ProjectType>
+    <MainSource>dragcentral.cpp</MainSource>
+    <Config Condition="'$(Config)'==''">Release Build</Config>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+    <Base>true</Base>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Config)'=='Debug Build' or '$(Cfg_1)'!=''">
+    <Base>true</Base>
+    <Cfg_1>true</Cfg_1>
+    <CfgParent>Base</CfgParent>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Config)'=='Release Build' or '$(Cfg_2)'!=''">
+    <Base>true</Base>
+    <Cfg_2>true</Cfg_2>
+    <CfgParent>Base</CfgParent>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Base)'!=''">
+    <BCC_OptimizeForSpeed>true</BCC_OptimizeForSpeed>
+    <DCC_Optimize>false</DCC_Optimize>
+    <OutputExt>exe</OutputExt>
+    <ILINK_IntermediateOutputPath>C:\bcbtemp</ILINK_IntermediateOutputPath>
+    <DCC_CBuilderOutput>JPHNE</DCC_CBuilderOutput>
+    <BCC_OutputDir>C:\bcbtemp\</BCC_OutputDir>
+    <ILINK_FullDebugInfo>true</ILINK_FullDebugInfo>
+    <BCC_InstructionSet>6</BCC_InstructionSet>
+    <BCC_InlineFunctionExpansion>false</BCC_InlineFunctionExpansion>
+    <BRCC_OutputDir>C:\bcbtemp\</BRCC_OutputDir>
+    <BCC_UseRegisterVariables>None</BCC_UseRegisterVariables>
+    <ILINK_AppType>Windows</ILINK_AppType>
+    <ILINK_ObjectSearchPath>C:\wrk.shared</ILINK_ObjectSearchPath>
+    <BCC_GenerateWindowsApp>true</BCC_GenerateWindowsApp>
+    <BCC_DebugLineNumbers>true</BCC_DebugLineNumbers>
+    <BCC_ZeroLengthEmptyMemberFuncs>true</BCC_ZeroLengthEmptyMemberFuncs>
+    <FinalOutputDir>.</FinalOutputDir>
+    <TASM_AdditionalSwitches> /w2 C:\bcbtemp\</TASM_AdditionalSwitches>
+    <PackageImports>vcl.bpi;rtl.bpi;dbrtl.bpi;vcldb.bpi;vclx.bpi;bdertl.bpi;dsnap.bpi;dsnap.bpi;bcbsmp.bpi;vclie.bpi;xmlrtl.bpi;inet.bpi;inetdbbde.bpi;inetdbxpress.bpi;bcbie.bpi;dbexpress.bpi;bcboffice2k.bpi</PackageImports>
+    <BCC_StringsInReadOnlyDataSeg>true</BCC_StringsInReadOnlyDataSeg>
+    <DCC_UnitSearchPath>.\;$(BDS)\lib;$(BDS)\lib\obj</DCC_UnitSearchPath>
+    <BCC_GenerateMultithreaded>true</BCC_GenerateMultithreaded>
+    <BCC_StackFrames>true</BCC_StackFrames>
+    <BRCC_UserSuppliedOptions> -IC:\;C:\gt;F:\;$(BDS)\Imports;c:\uho\australia-webmaster\originalsource\components;..\australia-webmaster\originalsource\components;C:\Program Files\Borland\CBuilder6\Projects;C:\uho\cars;$(BDS)\include;$(BDS)\include\vcl;$(BDS)\include\dinkumware</BRCC_UserSuppliedOptions>
+    <PackageLibs>indycore.lib;indysystem.lib;sensor_bds_package.lib;sensortab_bds_package.lib;cgrbutton_package.lib;shockwave_bds_package.lib</PackageLibs>
+    <IncludePath>C:\wrk.shared</IncludePath>
+    <BCC_PCHCache>true</BCC_PCHCache>
+    <DCC_DcuOutput>C:\bcbtemp\</DCC_DcuOutput>
+    <BCC_IntegerSizedEnums>false</BCC_IntegerSizedEnums>
+    <BCC_IncludePath>C:\;C:\gt;F:\;$(BDS)\Imports;c:\uho\australia-webmaster\originalsource\components;..\australia-webmaster\originalsource\components;C:\Program Files\Borland\CBuilder6\Projects;C:\uho\cars;$(BDS)\include;$(BDS)\include\vcl;$(BDS)\include\dinkumware</BCC_IncludePath>
+    <TASM_IncludePath>C:\;C:\gt;F:\;$(BDS)\Imports;c:\uho\australia-webmaster\originalsource\components;..\australia-webmaster\originalsource\components;C:\Program Files\Borland\CBuilder6\Projects;C:\uho\cars;$(BDS)\include;$(BDS)\include\vcl;$(BDS)\include\dinkumware</TASM_IncludePath>
+    <AllPackageLibs>vcl.lib;rtl.lib;indycore.lib;indysystem.lib;inet.lib;sensor_bds_package.lib;sensortab_bds_package.lib;cgrbutton_package.lib;dbrtl.lib;vcldb.lib;shockwave_bds_package.lib</AllPackageLibs>
+    <BRCC_IncludePath>C:\;C:\gt;F:\;$(BDS)\Imports;c:\uho\australia-webmaster\originalsource\components;..\australia-webmaster\originalsource\components;C:\Program Files\Borland\CBuilder6\Projects;C:\uho\cars;$(BDS)\include;$(BDS)\include\vcl;$(BDS)\include\dinkumware</BRCC_IncludePath>
+    <DCC_IncludePath>.\;$(BDS)\lib;$(BDS)\lib\obj</DCC_IncludePath>
+    <BCC_ZeroLengthEmptyBaseClass>true</BCC_ZeroLengthEmptyBaseClass>
+    <ILINK_LibraryPath>C:\;C:\gt;F:\;$(BDS)\Imports;$(BDS)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects;$(BDS)\lib\obj;$(BDS)\lib;C:\wrk.shared</ILINK_LibraryPath>
+    <BCC_Defines>NO_STRICT</BCC_Defines>
+    <DCC_ObjOutput>C:\bcbtemp\</DCC_ObjOutput>
+    <BRCC_Defines>_DEBUG</BRCC_Defines>
+    <TASM_Defines>_DEBUG</TASM_Defines>
+    <Multithreaded>true</Multithreaded>
+    <TASM_Debugging>Full</TASM_Debugging>
+    <BCC_SourceDebuggingOn>true</BCC_SourceDebuggingOn>
+    <DCC_SymbolReferenceInfo>2</DCC_SymbolReferenceInfo>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Cfg_1)'!=''">
+    <BCC_OptimizeForSpeed>false</BCC_OptimizeForSpeed>
+    <BCC_InstructionSet>3</BCC_InstructionSet>
+    <ILINK_DisableIncrementalLinking>true</ILINK_DisableIncrementalLinking>
+    <DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+    <BCC_PentiumInstructionScheduling>true</BCC_PentiumInstructionScheduling>
+    <BCC_CorrectFDIVFlaw>true</BCC_CorrectFDIVFlaw>
+    <IntermediateOutputDir>Debug_Build</IntermediateOutputDir>
+    <BCC_StringsInReadOnlyDataSeg>false</BCC_StringsInReadOnlyDataSeg>
+    <TASM_DisplaySourceLines>true</TASM_DisplaySourceLines>
+    <ILINK_LibraryPath>$(BDS)\lib\debug;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+    <BCC_Defines>_DEBUG;$(BCC_Defines)</BCC_Defines>
+    <BCC_OptimizeJumps>true</BCC_OptimizeJumps>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Cfg_2)'!=''">
+    <DCC_Optimize>true</DCC_Optimize>
+    <BCC_InlineFunctionExpansion>true</BCC_InlineFunctionExpansion>
+    <BCC_UseRegisterVariables>Always</BCC_UseRegisterVariables>
+    <DCC_DebugInformation>false</DCC_DebugInformation>
+    <BCC_DebugLineNumbers>false</BCC_DebugLineNumbers>
+    <IntermediateOutputDir>Release_Build</IntermediateOutputDir>
+    <BCC_StackFrames>false</BCC_StackFrames>
+    <ILINK_LibraryPath>$(BDS)\lib\release;$(ILINK_LibraryPath)</ILINK_LibraryPath>
+    <BCC_Defines>NDEBUG;$(BCC_Defines)</BCC_Defines>
+    <TASM_Debugging>None</TASM_Debugging>
+    <BCC_SourceDebuggingOn>false</BCC_SourceDebuggingOn>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>CPlusPlusBuilder.Personality</Borland.Personality>
+    <Borland.ProjectType>CppVCLApplication</Borland.ProjectType>
+    <BorlandProject>
+<BorlandProject><CPlusPlusBuilder.Personality><VersionInfo><VersionInfo Name="IncludeVerInfo">False</VersionInfo><VersionInfo Name="AutoIncBuild">False</VersionInfo><VersionInfo Name="MajorVer">1</VersionInfo><VersionInfo Name="MinorVer">0</VersionInfo><VersionInfo Name="Release">0</VersionInfo><VersionInfo Name="Build">0</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">1049</VersionInfo><VersionInfo Name="CodePage">1251</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName"></VersionInfoKeys><VersionInfoKeys Name="FileDescription"></VersionInfoKeys><VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="InternalName"></VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName"></VersionInfoKeys><VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys><VersionInfoKeys Name="Comments"></VersionInfoKeys></VersionInfoKeys><HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Count">4</HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Item0">C:\;C:\gt;F:\;$(BCB)\Imports;c:\uho\australia-webmaster\originalsource\components;..\australia-webmaster\originalsource\components;C:\Program Files\Borland\CBuilder6\Projects;C:\uho\cars;$(BCB)\include;$(BCB)\include\vcl</HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Item1">F:\;$(BCB)\Imports;c:\uho\australia-webmaster\originalsource\components;..\australia-webmaster\originalsource\components;C:\Program Files\Borland\CBuilder6\Projects;C:\uho\cars;$(BCB)\include;$(BCB)\include\vcl</HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Item2">$(BCB)\Imports;c:\uho\australia-webmaster\originalsource\components;..\australia-webmaster\originalsource\components;C:\Program Files\Borland\CBuilder6\Projects;C:\uho\cars;$(BCB)\include;$(BCB)\include\vcl</HistoryLists_hlIncludePath><HistoryLists_hlIncludePath Name="Item3">c:\uho\australia-webmaster\originalsource\components;..\australia-webmaster\originalsource\components;C:\Program Files\Borland\CBuilder6\Projects;C:\uho\cars;$(BCB)\include;$(BCB)\include\vcl</HistoryLists_hlIncludePath></HistoryLists_hlIncludePath><HistoryLists_hlLibraryPath><HistoryLists_hlLibraryPath Name="Count">5</HistoryLists_hlLibraryPath><HistoryLists_hlLibraryPath Name="Item0">C:\;C:\gt;F:\;$(BCB)\Imports;$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib</HistoryLists_hlLibraryPath><HistoryLists_hlLibraryPath Name="Item1">F:\;$(BCB)\Imports;$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib</HistoryLists_hlLibraryPath><HistoryLists_hlLibraryPath Name="Item2">$(BCB)\Imports;$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib</HistoryLists_hlLibraryPath><HistoryLists_hlLibraryPath Name="Item3">$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib</HistoryLists_hlLibraryPath><HistoryLists_hlLibraryPath Name="Item4">c:\uho\australia-webmaster\originalsource\components;$(BCB)\Projects\Lib;..\australia-webmaster\originalsource\components;C:\Program Files\Borland\CBuilder6\Projects;C:\uho\cars;$(BCB)\lib\obj;$(BCB)\lib</HistoryLists_hlLibraryPath></HistoryLists_hlLibraryPath><HistoryLists_hlDebugSourcePath><HistoryLists_hlDebugSourcePath Name="Count">1</HistoryLists_hlDebugSourcePath><HistoryLists_hlDebugSourcePath Name="Item0">$(BCB)\source\vcl</HistoryLists_hlDebugSourcePath></HistoryLists_hlDebugSourcePath><HistoryLists_hlConditionals><HistoryLists_hlConditionals Name="Count">1</HistoryLists_hlConditionals><HistoryLists_hlConditionals Name="Item0">_DEBUG</HistoryLists_hlConditionals></HistoryLists_hlConditionals><HistoryLists_hlIntOutputDir><HistoryLists_hlIntOutputDir Name="Count">4</HistoryLists_hlIntOutputDir><HistoryLists_hlIntOutputDir Name="Item0">C:\bcbtemp</HistoryLists_hlIntOutputDir><HistoryLists_hlIntOutputDir Name="Item1">C:\bcb-temp</HistoryLists_hlIntOutputDir><HistoryLists_hlIntOutputDir Name="Item2">C:\bcb-temp\</HistoryLists_hlIntOutputDir><HistoryLists_hlIntOutputDir Name="Item3">C:\cars\intermed</HistoryLists_hlIntOutputDir></HistoryLists_hlIntOutputDir><Debugging><Debugging Name="DebugSourceDirs">$(BCB)\source\vcl</Debugging></Debugging><Parameters><Parameters Name="RunParams">-test -debug </Parameters><Parameters Name="Launcher"></Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="DebugCWD"></Parameters><Parameters Name="HostApplication"></Parameters><Parameters Name="RemoteHost"></Parameters><Parameters Name="RemotePath"></Parameters><Parameters Name="RemoteParams"></Parameters><Parameters Name="RemoteLauncher"></Parameters><Parameters Name="UseRemoteLauncher">False</Parameters><Parameters Name="RemoteCWD"></Parameters><Parameters Name="RemoteDebug">False</Parameters><Parameters Name="Debug Symbols Search Path"></Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><Linker><Linker Name="LibPrefix"></Linker><Linker Name="LibSuffix"></Linker><Linker Name="LibVersion"></Linker></Linker><Source><Source Name="MainSource">dragcentral.cpp</Source></Source><ProjectProperties><ProjectProperties Name="AutoShowDeps">False</ProjectProperties><ProjectProperties Name="ManagePaths">True</ProjectProperties><ProjectProperties Name="VerifyPackages">True</ProjectProperties></ProjectProperties></CPlusPlusBuilder.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Cpp.Targets" />
+  <ItemGroup>
+    <ResFiles Include="dragcentral.res">
+      <BuildOrder>0</BuildOrder>
+    </ResFiles>
+    <CppCompile Include="account.cpp">
+      <DependentOn>account.h</DependentOn>
+      <BuildOrder>14</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="C:\wrk.shared\class_trace.cpp">
+      <DependentOn>C:\wrk.shared\class_trace.h</DependentOn>
+      <BuildOrder>48</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="cars.cpp">
+      <DependentOn>cars.h</DependentOn>
+      <BuildOrder>28</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="caudio.cpp">
+      <DependentOn>caudio.h</DependentOn>
+      <BuildOrder>21</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="cchecker.cpp">
+      <DependentOn>cchecker.h</DependentOn>
+      <BuildOrder>34</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="cencoder.cpp">
+      <DependentOn>cencoder.h</DependentOn>
+      <BuildOrder>42</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="cfindwindow.cpp">
+      <DependentOn>cfindwindow.h</DependentOn>
+      <BuildOrder>41</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="cgrbutton.cpp">
+      <DependentOn>cgrbutton.h</DependentOn>
+      <BuildOrder>40</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="challenge.cpp">
+      <DependentOn>challenge.h</DependentOn>
+      <BuildOrder>15</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="chatserver.cpp">
+      <DependentOn>chatserver.h</DependentOn>
+      <BuildOrder>5</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="cmp3stream.cpp">
+      <DependentOn>cmp3stream.h</DependentOn>
+      <BuildOrder>22</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="common_stuff.cpp">
+      <Form>_common</Form>
+      <DependentOn>common_stuff.h</DependentOn>
+      <BuildOrder>36</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="confirmForm.cpp">
+      <Form>request</Form>
+      <DependentOn>confirmForm.h</DependentOn>
+      <BuildOrder>29</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="cprofiler.cpp">
+      <DependentOn>cprofiler.h</DependentOn>
+      <BuildOrder>35</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="createroomForm.cpp">
+      <Form>createroom</Form>
+      <DependentOn>createroomForm.h</DependentOn>
+      <BuildOrder>6</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="csecstrings.cpp">
+      <DependentOn>csecstrings.h</DependentOn>
+      <BuildOrder>45</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="cSecureString.cpp">
+      <DependentOn>cSecureString.h</DependentOn>
+      <BuildOrder>46</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="dragcentral.cpp">
+      <BuildOrder>1</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="exceptForm.cpp">
+      <Form>except</Form>
+      <DependentOn>exceptForm.h</DependentOn>
+      <BuildOrder>8</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="formHelp.cpp">
+      <Form>Help</Form>
+      <DependentOn>formHelp.h</DependentOn>
+      <BuildOrder>44</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="form_banned.cpp">
+      <Form>banned</Form>
+      <DependentOn>form_banned.h</DependentOn>
+      <BuildOrder>32</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="form_challengeinfo.cpp">
+      <Form>challengeinfo</Form>
+      <DependentOn>form_challengeinfo.h</DependentOn>
+      <BuildOrder>26</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="form_challengeinfo_completed.cpp">
+      <Form>challengeinfo_completed</Form>
+      <DependentOn>form_challengeinfo_completed.h</DependentOn>
+      <BuildOrder>27</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="form_distributefunds.cpp">
+      <Form>distributefunds</Form>
+      <DependentOn>form_distributefunds.h</DependentOn>
+      <BuildOrder>24</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="form_gearratios.cpp">
+      <Form>gearratios</Form>
+      <DependentOn>form_gearratios.h</DependentOn>
+      <BuildOrder>33</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="form_getpass.cpp">
+      <Form>getpass</Form>
+      <DependentOn>form_getpass.h</DependentOn>
+      <BuildOrder>31</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="form_modtools.cpp">
+      <Form>modtools</Form>
+      <DependentOn>form_modtools.h</DependentOn>
+      <BuildOrder>20</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="form_teamchallenge.cpp">
+      <Form>createchallenge</Form>
+      <DependentOn>form_teamchallenge.h</DependentOn>
+      <BuildOrder>25</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="form_trace.cpp">
+      <Form>frm_trace</Form>
+      <DependentOn>form_trace.h</DependentOn>
+      <BuildOrder>47</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="frmMain.cpp">
+      <Form>main</Form>
+      <DependentOn>frmMain.h</DependentOn>
+      <BuildOrder>3</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="inputForm.cpp">
+      <Form>input</Form>
+      <DependentOn>inputForm.h</DependentOn>
+      <BuildOrder>38</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="messageform.cpp">
+      <Form>message</Form>
+      <DependentOn>messageform.h</DependentOn>
+      <BuildOrder>37</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="myflash.cpp">
+      <DependentOn>myflash.h</DependentOn>
+      <BuildOrder>12</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="myinternet.cpp">
+      <DependentOn>myinternet.h</DependentOn>
+      <BuildOrder>2</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="mymath.cpp">
+      <DependentOn>mymath.h</DependentOn>
+      <BuildOrder>13</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="myprofiler.cpp">
+      <DependentOn>myprofiler.h</DependentOn>
+      <BuildOrder>43</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="myvcl.cpp">
+      <DependentOn>myvcl.h</DependentOn>
+      <BuildOrder>16</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="parts.cpp">
+      <DependentOn>parts.h</DependentOn>
+      <BuildOrder>30</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="pmsForm.cpp">
+      <Form>pms</Form>
+      <DependentOn>pmsForm.h</DependentOn>
+      <BuildOrder>7</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="race_car_engine.cpp">
+      <DependentOn>race_car_engine.h</DependentOn>
+      <BuildOrder>17</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="race_flash.cpp">
+      <DependentOn>race_flash.h</DependentOn>
+      <BuildOrder>10</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="race_game.cpp">
+      <DependentOn>race_game.h</DependentOn>
+      <BuildOrder>11</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="race_gameandflash.cpp">
+      <DependentOn>race_gameandflash.h</DependentOn>
+      <BuildOrder>9</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="roomlistForm.cpp">
+      <Form>rooms</Form>
+      <DependentOn>roomlistForm.h</DependentOn>
+      <BuildOrder>4</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="sensor.cpp">
+      <DependentOn>sensor.h</DependentOn>
+      <BuildOrder>18</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="sensortab.cpp">
+      <DependentOn>sensortab.h</DependentOn>
+      <BuildOrder>19</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="team.cpp">
+      <DependentOn>team.h</DependentOn>
+      <BuildOrder>23</BuildOrder>
+    </CppCompile>
+    <CppCompile Include="teammessage_post.cpp">
+      <Form>teammessage</Form>
+      <DependentOn>teammessage_post.h</DependentOn>
+      <BuildOrder>39</BuildOrder>
+    </CppCompile>
+    <FormResources Include="common_stuff.dfm" />
+    <FormResources Include="confirmForm.dfm" />
+    <FormResources Include="createroomForm.dfm" />
+    <FormResources Include="exceptForm.dfm" />
+    <FormResources Include="formHelp.dfm" />
+    <FormResources Include="form_banned.dfm" />
+    <FormResources Include="form_challengeinfo.dfm" />
+    <FormResources Include="form_challengeinfo_completed.dfm" />
+    <FormResources Include="form_distributefunds.dfm" />
+    <FormResources Include="form_gearratios.dfm" />
+    <FormResources Include="form_getpass.dfm" />
+    <FormResources Include="form_modtools.dfm" />
+    <FormResources Include="form_teamchallenge.dfm" />
+    <FormResources Include="form_trace.dfm" />
+    <FormResources Include="frmMain.dfm" />
+    <FormResources Include="inputForm.dfm" />
+    <FormResources Include="messageform.dfm" />
+    <FormResources Include="pmsForm.dfm" />
+    <FormResources Include="roomlistForm.dfm" />
+    <FormResources Include="teammessage_post.dfm" />
+    <BuildConfiguration Include="Debug Build">
+      <Key>Cfg_1</Key>
+    </BuildConfiguration>
+    <BuildConfiguration Include="Release Build">
+      <Key>Cfg_2</Key>
+    </BuildConfiguration>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2006.08.16 07:29:58.263.cpp,C:\Documents and Settings\Назар\Мои документы\Borland Studio Projects\Unit1.cpp=C:\dc\test_findwindow_form.cpp</Transaction>
+    <Transaction>2006.08.16 07:29:58.263.h,C:\Documents and Settings\Назар\Мои документы\Borland Studio Projects\Unit1.h=C:\dc\test_findwindow_form.h</Transaction>
+    <Transaction>2006.08.16 07:29:58.263.dfm,C:\Documents and Settings\Назар\Мои документы\Borland Studio Projects\Unit1.dfm=C:\dc\test_findwindow_form.dfm</Transaction>
+    <Transaction>2006.08.16 07:30:04.263.bdsproj,C:\Documents and Settings\Назар\Мои документы\Borland Studio Projects\Project1.bdsproj=C:\dc\test_find_window.bdsproj</Transaction>
+    <Transaction>2006.08.16 07:30:25.981.bdsproj,C:\dc\test_find_window.bdsproj=C:\dc\test_findwindow.bdsproj</Transaction>
+    <Transaction>2006.08.16 08:48:49.856.cpp,C:\dc\Unit1.cpp=C:\dc\cfindwindow.cpp</Transaction>
+    <Transaction>2006.08.16 08:48:49.856.h,C:\dc\Unit1.h=C:\dc\cfindwindow.h</Transaction>
+  </Transactions>
+</BorlandProject>

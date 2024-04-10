@@ -1,0 +1,48 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{F015CBAA-91B3-479B-A929-89AFB3323060}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="MyRacingGame.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="componentspackage.cbproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="MyRacingGame">
+			<MSBuild Projects="MyRacingGame.cbproj"/>
+		</Target>
+		<Target Name="MyRacingGame:Clean">
+			<MSBuild Targets="Clean" Projects="MyRacingGame.cbproj"/>
+		</Target>
+		<Target Name="MyRacingGame:Make">
+			<MSBuild Targets="Make" Projects="MyRacingGame.cbproj"/>
+		</Target>
+		<Target Name="componentspackage">
+			<MSBuild Projects="componentspackage.cbproj"/>
+		</Target>
+		<Target Name="componentspackage:Clean">
+			<MSBuild Targets="Clean" Projects="componentspackage.cbproj"/>
+		</Target>
+		<Target Name="componentspackage:Make">
+			<MSBuild Targets="Make" Projects="componentspackage.cbproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="MyRacingGame;componentspackage"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="MyRacingGame:Clean;componentspackage:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="MyRacingGame:Make;componentspackage:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

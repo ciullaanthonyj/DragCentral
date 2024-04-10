@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2006.08.16 08:30:40.981.cpp,C:\dc\Unit1.cpp=C:\dc\csecstrings.cpp</Transaction>
+    <Transaction>2006.08.16 08:30:40.981.h,C:\dc\Unit1.h=C:\dc\csecstrings.h</Transaction>
+    <Transaction>2006.08.16 14:48:04.466.cpp,C:\dc\myprofiler.cpp=</Transaction>
+    <Transaction>2006.10.12 22:04:47.312.cpp,C:\dc\Unit1.cpp=C:\dc\formHelp.cpp</Transaction>
+    <Transaction>2006.10.12 22:04:47.343.h,C:\dc\Unit1.h=C:\dc\formHelp.h</Transaction>
+    <Transaction>2006.10.12 22:04:47.343.dfm,C:\dc\Unit1.dfm=C:\dc\formHelp.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

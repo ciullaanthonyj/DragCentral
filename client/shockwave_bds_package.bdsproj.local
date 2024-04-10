@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2006.08.14 11:31:19.669.cpp,c:\program files\borland\bds\4.0\Imports\DIRECTORSHOCKWAVELib_TLB.cpp=</Transaction>
+    <Transaction>2006.08.14 11:31:22.076.cpp,c:\program files\borland\bds\4.0\Imports\DIRECTORSHOCKWAVELib_OCX.cpp=</Transaction>
+    <Transaction>2006.08.14 11:33:10.826.bdsproj,C:\Documents and Settings\Назар\Мои документы\Borland Studio Projects\Package1.bdsproj=C:\dc_bds\shockwave_bds_package.bdsproj</Transaction>
+    <Transaction>2006.08.14 11:33:47.201.cpp,c:\program files\borland\bds\4.0\Imports\ShockwaveFlashObjects_OCX.cpp=C:\dc_bds\ShockwaveFlashObjects_OCX.cpp</Transaction>
+    <Transaction>2006.08.14 11:33:47.201.h,c:\program files\borland\bds\4.0\Imports\ShockwaveFlashObjects_OCX.h=C:\dc_bds\ShockwaveFlashObjects_OCX.h</Transaction>
+    <Transaction>2006.08.14 11:34:25.966.cpp,c:\program files\borland\bds\4.0\Imports\ShockwaveFlashObjects_TLB.cpp=</Transaction>
+    <Transaction>2006.08.14 11:34:29.451.cpp,C:\dc_bds\ShockwaveFlashObjects_OCX.cpp=</Transaction>
+    <Transaction>2006.08.14 11:38:09.263.cpp,c:\program files\borland\bds\4.0\Imports\ShockwaveFlashObjects_OCX.cpp=C:\dc_bds\ShockwaveFlashObjects_OCX.cpp</Transaction>
+    <Transaction>2006.08.14 11:38:09.263.h,c:\program files\borland\bds\4.0\Imports\ShockwaveFlashObjects_OCX.h=C:\dc_bds\ShockwaveFlashObjects_OCX.h</Transaction>
+    <Transaction>2006.08.14 11:48:04.529.cpp,c:\program files\borland\bds\4.0\Imports\ShockwaveFlashObjects_TLB.cpp=</Transaction>
+    <Transaction>2006.08.14 11:48:07.904.cpp,c:\program files\borland\bds\4.0\Imports\ShockwaveFlashObjects_OCX.cpp=</Transaction>
+    <Transaction>2006.08.14 12:11:27.216.cpp,C:\dc_bds\ShockwaveFlashObjects_OCX.cpp=</Transaction>
+    <Transaction>2006.08.14 12:11:29.076.cpp,C:\dc_bds\ShockwaveFlashObjects_TLB.cpp=</Transaction>
+    <Transaction>2006.08.14 13:47:59.059.cpp,C:\dc_bds\ShockwaveFlashObjects_TLB.cpp=</Transaction>
+    <Transaction>2006.08.21 13:14:58.186.cpp,c:\program files\borland\bds\4.0\Imports\MPEGPLAYLib_TLB.cpp=</Transaction>
+    <Transaction>2006.08.21 13:14:59.749.cpp,c:\program files\borland\bds\4.0\Imports\MPEGPLAYLib_OCX.cpp=</Transaction>
+    <Transaction>2006.08.21 13:16:37.046.cpp,c:\program files\borland\bds\4.0\Imports\MPEGPLAYLib_TLB.cpp=</Transaction>
+    <Transaction>2006.08.21 13:16:39.030.cpp,c:\program files\borland\bds\4.0\Imports\MPEGPLAYLib_OCX.cpp=</Transaction>
+  </Transactions>
+</BorlandProject>

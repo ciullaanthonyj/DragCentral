@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="dragcentral.exe"/>
+    <OBJFILES value="C:\bcbtemp\dragcentral.obj C:\bcbtemp\myinternet.obj 
+      C:\bcbtemp\frmMain.obj C:\bcbtemp\myprofiler.obj 
+      C:\bcbtemp\roomlistForm.obj C:\bcbtemp\chatserver.obj 
+      C:\bcbtemp\createroomForm.obj C:\bcbtemp\pmsForm.obj 
+      C:\bcbtemp\exceptForm.obj C:\bcbtemp\race_gameandflash.obj 
+      C:\bcbtemp\race_flash.obj C:\bcbtemp\race_game.obj C:\bcbtemp\myflash.obj 
+      C:\bcbtemp\mymath.obj C:\bcbtemp\account.obj C:\bcbtemp\challenge.obj 
+      C:\bcbtemp\myvcl.obj C:\bcbtemp\race_car_engine.obj C:\bcbtemp\sensor.obj 
+      C:\bcbtemp\sensortab.obj C:\bcbtemp\form_modtools.obj 
+      C:\bcbtemp\caudio.obj C:\bcbtemp\cmp3stream.obj C:\bcbtemp\team.obj 
+      C:\bcbtemp\form_distributefunds.obj C:\bcbtemp\form_teamchallenge.obj 
+      C:\bcbtemp\form_challengeinfo.obj 
+      C:\bcbtemp\form_challengeinfo_completed.obj C:\bcbtemp\cars.obj 
+      C:\bcbtemp\confirmForm.obj C:\bcbtemp\parts.obj 
+      C:\bcbtemp\form_getpass.obj C:\bcbtemp\form_banned.obj 
+      C:\bcbtemp\form_gearratios.obj C:\bcbtemp\cchecker.obj 
+      C:\bcbtemp\cprofiler.obj C:\bcbtemp\cgrbutton.obj 
+      C:\bcbtemp\common_stuff.obj C:\bcbtemp\messageform.obj 
+      C:\bcbtemp\inputForm.obj C:\bcbtemp\teammessage_post.obj"/>
+    <RESFILES value="dragcentral.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) frmMain.dfm roomlistForm.dfm createroomForm.dfm pmsForm.dfm 
+      exceptForm.dfm form_modtools.dfm form_distributefunds.dfm 
+      form_teamchallenge.dfm form_challengeinfo.dfm 
+      form_challengeinfo_completed.dfm confirmForm.dfm form_getpass.dfm 
+      form_banned.dfm form_gearratios.dfm common_stuff.dfm messageform.dfm 
+      inputForm.dfm teammessage_post.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="cgrbutton_package.lib inet.lib componentspackage.lib dclusr.lib indy.lib 
+      rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib indy.lib dclusr.lib componentspackage.lib inet.lib 
+      cgrbutton_package.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi vcldb.bpi vclx.bpi bdertl.bpi dsnap.bpi cds.bpi 
+      bdecds.bpi dsnapcrba.bpi dsnapcon.bpi bcbsmp.bpi vclie.bpi xmlrtl.bpi 
+      inet.bpi inetdbbde.bpi inetdbxpress.bpi nmfast.bpi webdsnap.bpi bcbie.bpi 
+      websnap.bpi dbexpress.bpi indy.bpi bcb2kaxserver.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="dragcentral.cpp"/>
+    <INCLUDEPATH value="C:\;C:\gt;F:\;$(BCB)\Imports;c:\uho\australia-webmaster\originalsource\components;..\australia-webmaster\originalsource\components;&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;C:\uho\cars;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="C:\;C:\gt;F:\;$(BCB)\Imports;$(BCB)\Projects\Lib;&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-IC:\. -IC:\gt -IF:\. -I$(BCB)\Imports 
+      -Ic:\uho\australia-webmaster\originalsource\components 
+      -I..\australia-webmaster\originalsource\components 
+      -I&quot;C:\Program Files\Borland\CBuilder6\Projects&quot; -IC:\uho\cars 
+      -I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tW -tWM"/>
+    <PFLAGS value="-N2C:\bcbtemp -N0C:\bcbtemp -$Y+ -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-IC:\bcbtemp -D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="dragcentral.res" FORMNAME="" UNITNAME="dragcentral.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="dragcentral.cpp" FORMNAME="" UNITNAME="dragcentral" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="myinternet.cpp" FORMNAME="" UNITNAME="myinternet" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="frmMain.cpp" FORMNAME="main" UNITNAME="frmMain" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="myprofiler.cpp" FORMNAME="" UNITNAME="myprofiler" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="roomlistForm.cpp" FORMNAME="rooms" UNITNAME="roomlistForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="chatserver.cpp" FORMNAME="" UNITNAME="chatserver" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="createroomForm.cpp" FORMNAME="createroom" UNITNAME="createroomForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="pmsForm.cpp" FORMNAME="pms" UNITNAME="pmsForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="exceptForm.cpp" FORMNAME="except" UNITNAME="exceptForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="race_gameandflash.cpp" FORMNAME="" UNITNAME="race_gameandflash" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="race_flash.cpp" FORMNAME="" UNITNAME="race_flash" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="race_game.cpp" FORMNAME="" UNITNAME="race_game" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="myflash.cpp" FORMNAME="" UNITNAME="myflash" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="mymath.cpp" FORMNAME="" UNITNAME="mymath" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="account.cpp" FORMNAME="" UNITNAME="account" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="challenge.cpp" FORMNAME="" UNITNAME="challenge" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="myvcl.cpp" FORMNAME="" UNITNAME="myvcl" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="race_car_engine.cpp" FORMNAME="" UNITNAME="race_car_engine" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="sensor.cpp" FORMNAME="" UNITNAME="sensor" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="sensortab.cpp" FORMNAME="" UNITNAME="sensortab" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="form_modtools.cpp" FORMNAME="modtools" UNITNAME="form_modtools" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="caudio.cpp" FORMNAME="" UNITNAME="caudio" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="cmp3stream.cpp" FORMNAME="" UNITNAME="cmp3stream" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="team.cpp" FORMNAME="" UNITNAME="team" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="form_distributefunds.cpp" FORMNAME="distributefunds" UNITNAME="form_distributefunds" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="form_teamchallenge.cpp" FORMNAME="createchallenge" UNITNAME="form_teamchallenge" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="form_challengeinfo.cpp" FORMNAME="challengeinfo" UNITNAME="form_challengeinfo" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="form_challengeinfo_completed.cpp" FORMNAME="challengeinfo_completed" UNITNAME="form_challengeinfo_completed" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="cars.cpp" FORMNAME="" UNITNAME="cars" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="confirmForm.cpp" FORMNAME="request" UNITNAME="confirmForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="parts.cpp" FORMNAME="" UNITNAME="parts" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="form_getpass.cpp" FORMNAME="getpass" UNITNAME="form_getpass" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="form_banned.cpp" FORMNAME="banned" UNITNAME="form_banned" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="form_gearratios.cpp" FORMNAME="gearratios" UNITNAME="form_gearratios" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="cchecker.cpp" FORMNAME="" UNITNAME="cchecker" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="cprofiler.cpp" FORMNAME="" UNITNAME="cprofiler" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="cgrbutton.cpp" FORMNAME="" UNITNAME="cgrbutton" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="common_stuff.cpp" FORMNAME="_common" UNITNAME="common_stuff" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="messageform.cpp" FORMNAME="message" UNITNAME="messageform" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="inputForm.cpp" FORMNAME="input" UNITNAME="inputForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="teammessage_post.cpp" FORMNAME="teammessage" UNITNAME="teammessage_post" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=4
+Item0=C:\;C:\gt;F:\;$(BCB)\Imports;c:\uho\australia-webmaster\originalsource\components;..\australia-webmaster\originalsource\components;C:\Program Files\Borland\CBuilder6\Projects;C:\uho\cars;$(BCB)\include;$(BCB)\include\vcl
+Item1=F:\;$(BCB)\Imports;c:\uho\australia-webmaster\originalsource\components;..\australia-webmaster\originalsource\components;C:\Program Files\Borland\CBuilder6\Projects;C:\uho\cars;$(BCB)\include;$(BCB)\include\vcl
+Item2=$(BCB)\Imports;c:\uho\australia-webmaster\originalsource\components;..\australia-webmaster\originalsource\components;C:\Program Files\Borland\CBuilder6\Projects;C:\uho\cars;$(BCB)\include;$(BCB)\include\vcl
+Item3=c:\uho\australia-webmaster\originalsource\components;..\australia-webmaster\originalsource\components;C:\Program Files\Borland\CBuilder6\Projects;C:\uho\cars;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=5
+Item0=C:\;C:\gt;F:\;$(BCB)\Imports;$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item1=F:\;$(BCB)\Imports;$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item2=$(BCB)\Imports;$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item3=$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder6\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item4=c:\uho\australia-webmaster\originalsource\components;$(BCB)\Projects\Lib;..\australia-webmaster\originalsource\components;C:\Program Files\Borland\CBuilder6\Projects;C:\uho\cars;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[HistoryLists\hlIntOutputDir]
+Count=4
+Item0=C:\bcbtemp
+Item1=C:\bcb-temp
+Item2=C:\bcb-temp\
+Item3=C:\cars\intermed
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=-test -debug -profile
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

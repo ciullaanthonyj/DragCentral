@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2006.08.14 14:01:46.325.bdsproj,C:\Documents and Settings\Назар\Мои документы\Borland Studio Projects\Package1.bdsproj=C:\temp\shockwave_lib.bdsproj</Transaction>
+    <Transaction>2006.08.14 14:07:01.934.cpp,C:\Program Files\Borland\CBuilder6\Imports\ShockwaveFlashObjects_TLB.cpp=</Transaction>
+    <Transaction>2006.08.14 14:07:03.590.cpp,C:\Program Files\Borland\CBuilder6\Imports\ShockwaveFlashObjects_OCX.cpp=</Transaction>
+    <Transaction>2006.08.14 14:07:05.137.dcr,C:\Program Files\Borland\CBuilder6\Imports\ShockwaveFlashObjects_OCX.dcr=</Transaction>
+    <Transaction>2006.08.14 14:08:25.575.bdsproj,C:\temp\shockwave_lib.bdsproj=C:\dc_bds\shockwave_lib.bdsproj</Transaction>
+  </Transactions>
+</BorlandProject>

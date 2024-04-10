@@ -1,0 +1,1 @@
+"c:\bccommandline\bin\make" -fdc_offline.mak

@@ -1,0 +1,8 @@
+
+C:\dc>"c:\bccommandline\bin\make" -fdc_offline.mak 
+MAKE Version 5.2  Copyright (c) 1987, 2000 Borland
+	"c:\program files\borland\cbuilder6"\BIN\ilink32 @MAKE0000.@@@
+Turbo Incremental Link 5.60 Copyright (c) 1997-2002 Borland
+Fatal: Unable to open file 'RTL.LIB'
+
+** error 2 ** deleting dc_offline.exe

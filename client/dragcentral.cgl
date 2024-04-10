@@ -1,0 +1,21 @@
+Error 00084. 0x350010 (Thread 0x0D70):
+Resource type mismatch: a(n) object was expected.
+delete(0x01112D5C) 
+
+Call Tree:
+   0x004605CA(=dragcentral.exe:0x01:05F5CA) C:\dc\caudio.cpp#479
+   0x00461779(=dragcentral.exe:0x01:060779) C:\dc\caudio.cpp#805
+   0x0045F633(=dragcentral.exe:0x01:05E633) C:\dc\caudio.cpp#0
+   0x0053AADF(=dragcentral.exe:0x01:139ADF)
+   0x0053AB2E(=dragcentral.exe:0x01:139B2E)
+   0x00539DEC(=dragcentral.exe:0x01:138DEC)
+
+The object array (0x01112D5C) [size: 11760 bytes] was created with new[]
+Call Tree:
+   0x00460264(=dragcentral.exe:0x01:05F264) C:\dc\caudio.cpp#436
+   0x004616B4(=dragcentral.exe:0x01:0606B4) C:\dc\caudio.cpp#786
+   0x0045F5D0(=dragcentral.exe:0x01:05E5D0) C:\dc\caudio.cpp#0
+   0x0053AAC1(=dragcentral.exe:0x01:139AC1)
+   0x0053AC97(=dragcentral.exe:0x01:139C97)
+
+------------------------------------------
