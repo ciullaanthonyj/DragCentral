@@ -18,6 +18,16 @@ DragCentral is a classic multiplayer racing game that has enthralled players wit
 A heartfelt thank you to everyone who has contributed to DragCentral over the years. Your passion and creativity have made this game what it is today.
 Join us in keeping the legacy of DragCentral alive and racing towards the future!
 
+## Setup
++ Clone the repo
++ Edit connect* files in /DragCentral/server
++ Place file contents of DragCentral/server  on PHP server
++ Download release v0.83
++ Edit dragcentral.ini
++ Set "host" to the server URI game is hosted on
++ Set "dir" to FOLDER_CONTAINING_CONTENTS_OF_DRAGCENTRAL_SERVER_FOLDER/server
++ Launch 
+
 ## Screenshots
 
 ![Perfect Run](https://raw.githubusercontent.com/ciullaanthonyj/dragcentral/main/images/dcperfect.png)
